@@ -20,7 +20,7 @@ function getColumn($arr, $col)
     $column = [];
     for($i=0;$i<count($arr);$i++)
         {  
-        $column[] = $arr[$i][$col];//Removed Floatval 
+        $column[] = $arr[$i][$col];
         } 
     return $column;
 }  
